@@ -9,12 +9,12 @@ function exec (cmd) {
 var versionRequirements = [
   {
     name: 'node',
-    currentVersion: semver.clean(process.version),
+    currentVersion: 'v8.1.4',
     versionRequirement: packageConfig.engines.node
   },
   {
     name: 'npm',
-    currentVersion: exec('npm --version'),
+    currentVersion: '5.0.3',
     versionRequirement: packageConfig.engines.npm
   }
 ]
