@@ -9,7 +9,7 @@ function exec (cmd) {
 var versionRequirements = [
   {
     name: 'node',
-    currentVersion: 'v8.1.4',
+    currentVersion: 'v6.11.1',
     versionRequirement: packageConfig.engines.node
   },
   {
